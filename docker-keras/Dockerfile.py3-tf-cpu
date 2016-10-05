@@ -1,4 +1,4 @@
 FROM gw000/keras:1.1.0-py3-tf-cpu
-RUN sudo apt-get install tqdm -y
-RUN sudo pip3 install Pillow
+RUN apt-get install tqdm -y
+RUN pip3 install Pillow
 
