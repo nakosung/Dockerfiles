@@ -1,4 +1,4 @@
-FROM nvidia/cuda-7.5-cudnn5-runtime
+FROM nvidia/cuda:7.5-cudnn5-runtime
 
 # install debian packages
 ENV DEBIAN_FRONTEND noninteractive
