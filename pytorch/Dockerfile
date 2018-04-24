@@ -6,3 +6,4 @@ RUN /bin/bash ~/miniconda.sh -b -p /opt/conda && rm ~/miniconda.sh
 RUN /opt/conda/bin/conda install hdfs3 -y
 ENV LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:/opt/conda/lib/
 RUN pip install hdfs3
+RUN pip install torch==0.4.0
